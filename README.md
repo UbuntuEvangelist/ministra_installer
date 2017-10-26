@@ -1,6 +1,6 @@
 [![N|Solid](https://www.ucanbolat.nl/images/logo-black.png)](https://www.ucanbolat.nl/)
 
-<b>Ministra WM Portal auto installer for Debian and Ubuntu.</b>
+<b>Ministra WM Portal auto installer script for Debian and Ubuntu.</b>
 
 This script will work on Debian, Ubuntu and probably other distros
 of the same families, although no support is offered for them. It isn't
