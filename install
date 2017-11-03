@@ -83,3 +83,5 @@ sudo phing
 echo -e "\n${green}Necessary services & packets Installed\n\n${norm}\n"
 echo -e "\n${green}MySQL root password is $pass\n\n${norm}\n"
 echo -e "\n${green}Ministra MW Portal installed on http://`ifconfig eth0 2>/dev/null|awk '/inet addr:/ {print $2}'|sed 's/addr://'`/ministra_portal\n\n${norm}\n"
+echo -e "\n${green}Ministra MW Portal Username : admin \n\n${norm}\n"
+echo -e "\n${green}Ministra MW Portal Password : 1 \n\n${norm}\n"
