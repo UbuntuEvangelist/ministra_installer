@@ -37,7 +37,7 @@ pear install phing/phing
 sleep 1
 
 # Set the Server Timezone to CST
-echo "Europe/Amsterdam" > /etc/timezone
+echo "America/New_York" > /etc/timezone
 dpkg-reconfigure -f noninteractive tzdata
 
 # Install MySQL Server in a Non-Interactive mode. Default root password will be "m1n1str4"
