@@ -24,6 +24,17 @@ norm='\033[00m'
 pass="m1n1str4"
 source="https://www.ucanbolat.nl/configs"
 
+# ECHO STALKER_PORTAL ASCII :)
+echo "
+  _____ _        _ _               _____           _        _ 
+ / ____| |      | | |             |  __ \         | |      | |
+| (___ | |_ __ _| | | _____ _ __  | |__) |__  _ __| |_ __ _| |
+ \___ \| __/ _` | | |/ / _ \ '__| |  ___/ _ \| '__| __/ _` | |
+ ____) | || (_| | |   <  __/ |    | |  | (_) | |  | || (_| | |
+|_____/ \__\__,_|_|_|\_\___|_|    |_|   \___/|_|   \__\__,_|_|
+                                                              
+";
+
 # Download and Install the Latest Updates for the OS
 
 apt-get update > /dev/null
@@ -37,7 +48,7 @@ pear install phing/phing
 sleep 1
 
 # Set the Server Timezone to CST
-echo "America/New_York" > /etc/timezone
+echo "Europe/Amsterdam" > /etc/timezone
 dpkg-reconfigure -f noninteractive tzdata
 
 # Install MySQL Server in a Non-Interactive mode. Default root password will be "m1n1str4"
